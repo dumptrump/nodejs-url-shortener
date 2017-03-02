@@ -63,7 +63,7 @@ function createShortCode(longUrl) {
 }
 
 function randomString(length) {
-    var chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHUJKLMNOPQRSTUVWXYZ';
+    var chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHUJKLMNOPQRSTUVWXYZ-_';
     var result = '';
 
     console.log("Generating random alphanumeric string of length " + length);
